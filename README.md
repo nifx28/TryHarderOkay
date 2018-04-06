@@ -58,3 +58,11 @@ go get -u -v github.com/sqs/goreturns
 go get -u -v github.com/golang/lint/golint
 go get -u -v github.com/derekparker/delve/cmd/dlv
 ```
+
+#### Google App Engine
+```
+gcloud components install app-engine-go
+gcloud app deploy src\ShittyServer\app.yaml
+gcloud app logs tail -s default
+gcloud app browse
+```
