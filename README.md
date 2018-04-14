@@ -29,6 +29,12 @@ git remote -v
 git fetch
 git merge origin/master
 git push origin master
+git fetch --all
+git pull --all
+git branch -r
+git checkout <branch>
+git branch -d <branch>
+git push -d origin <branch>
 ```
 
 #### Git 指令參考
